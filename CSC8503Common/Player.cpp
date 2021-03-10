@@ -1,5 +1,6 @@
 #include "Player.h"
 #include "AABBVolume.h"
+#include "CapsuleVolume.h"
 #include "../CSC8503Common/PlayerStateRunning.h"
 using namespace NCL;
 using namespace CSC8503;
@@ -18,6 +19,7 @@ Player::Player(Vector3 pos)
 
 	AABBVolume* volume = new AABBVolume(Vector3(0.3f, 0.85f, 0.3f) * meshSize);
 
+	//CapsuleVolume* volume = new CapsuleVolume(0.8f, 0.3f);
 	SetBoundingVolume((CollisionVolume*)volume);
 
 	GetTransform().SetScale(Vector3(meshSize, meshSize, meshSize)).SetPosition(pos).SetOrientation(Matrix4::Rotation(180,Vector3(0, 1, 0)));

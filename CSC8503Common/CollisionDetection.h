@@ -58,9 +58,7 @@ namespace NCL {
 			}
 		};
 
-		static bool SphereCapsuleIntersection(
-			const CapsuleVolume& volumeA, const Transform& worldTransformA,
-			const SphereVolume& volumeB, const Transform& worldTransformB, CollisionInfo& collisionInfo);
+		
 
 		//TODO ADD THIS PROPERLY
 		static bool RayBoxIntersection(const Ray&r, const Vector3& boxPos, const Vector3& boxSize, RayCollision& collision);
@@ -90,11 +88,25 @@ namespace NCL {
 		static bool SphereIntersection(	const SphereVolume& volumeA, const Transform& worldTransformA,
 										const SphereVolume& volumeB, const Transform& worldTransformB, CollisionInfo& collisionInfo);
 
+		static bool SphereIntersection(const float radiusA, const Vector3 posA, const float radiusB, const Vector3 posB, CollisionInfo& collisionInfo);
+
 		static bool AABBSphereIntersection(	const AABBVolume& volumeA	 , const Transform& worldTransformA,
 										const SphereVolume& volumeB, const Transform& worldTransformB, CollisionInfo& collisionInfo);
 
+		static bool AABBSphereIntersection(const AABBVolume& volumeA, const Transform& worldTransformA,
+			const float radius, const Vector3 spherePos, CollisionInfo& collisionInfo);
+
 		static bool OBBIntersection(	const OBBVolume& volumeA, const Transform& worldTransformA,
 										const OBBVolume& volumeB, const Transform& worldTransformB, CollisionInfo& collisionInfo);
+
+		static bool SphereCapsuleIntersection(
+			const CapsuleVolume& volumeA, const Transform& worldTransformA,
+			const SphereVolume& volumeB, const Transform& worldTransformB, CollisionInfo& collisionInfo);
+
+		static bool AABBCapsuleIntersection(
+			const CapsuleVolume& volumeA, const Transform& worldTransformA,
+			const AABBVolume& volumeB, const Transform& worldTransformB, CollisionInfo& collisionInfo);
+
 
 		static Vector3 Unproject(const Vector3& screenPos, const Camera& cam);
 
@@ -102,7 +114,7 @@ namespace NCL {
 		static Matrix4		GenerateInverseProjection(float aspect, float fov, float nearPlane, float farPlane);
 		static Matrix4		GenerateInverseView(const Camera &c);
 
-		Vector3 ClosestPointOnALine(const Vector3 startOfLine, const Vector3 endOfLine, const Vector3 point);
+		static Vector3 ClosestPointOnALine(const Vector3 startOfLine, const Vector3 endOfLine, const Vector3 point);
 
 	protected:
 	

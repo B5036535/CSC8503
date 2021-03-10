@@ -1,8 +1,1 @@
-﻿  TutorialGame.cpp
-C:\Users\Jake\Documents\GitHub\CSC8503\CSC8503\CSC8503Common\CollisionDetection.h(44,1): warning C4293: '<<': shift count negative or too big, undefined behavior
-C:\Users\Jake\Documents\GitHub\CSC8503\CSC8503\CSC8503Common\CollisionDetection.h(45,1): warning C4293: '<<': shift count negative or too big, undefined behavior
-C:\Users\Jake\Documents\GitHub\CSC8503\CSC8503\GameTech\TutorialGame.cpp(397,15): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-C:\Users\Jake\Documents\GitHub\CSC8503\CSC8503\GameTech\TutorialGame.cpp(398,11): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\Jake\Documents\GitHub\CSC8503\CSC8503\GameTech\TutorialGame.cpp(399,11): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\Jake\Documents\GitHub\CSC8503\CSC8503\GameTech\TutorialGame.cpp(535,148): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-  GameTech.vcxproj -> C:\Users\Jake\Documents\GitHub\CSC8503\Win32\Debug\GameTech.exe
+﻿  GameTech.vcxproj -> C:\Users\Jake\Documents\GitHub\CSC8503\Win32\Debug\GameTech.exe
