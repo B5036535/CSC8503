@@ -1,0 +1,42 @@
+﻿  BridgeConstraint.cpp
+C:\Users\Jake\Documents\GitHub\CSC8503\CSC8503\CSC8503Common\BridgeConstraint.h(31,63): error C2061: syntax error: identifier 'PhysicsObject'
+C:\Users\Jake\Documents\GitHub\CSC8503\CSC8503\CSC8503Common\BridgeConstraint.h(32,65): error C2061: syntax error: identifier 'PhysicsObject'
+C:\Users\Jake\Documents\GitHub\CSC8503\CSC8503\CSC8503Common\BridgeConstraint.h(33,63): error C2061: syntax error: identifier 'PhysicsObject'
+C:\Users\Jake\Documents\GitHub\CSC8503\CSC8503\CSC8503Common\BridgeConstraint.cpp(23,44): error C2660: 'NCL::CSC8503::BridgeConstraint::Distance': function does not take 4 arguments
+C:\Users\Jake\Documents\GitHub\CSC8503\CSC8503\CSC8503Common\BridgeConstraint.h(31,9): message : see declaration of 'NCL::CSC8503::BridgeConstraint::Distance'
+C:\Users\Jake\Documents\GitHub\CSC8503\CSC8503\CSC8503Common\BridgeConstraint.cpp(24,50): error C2660: 'NCL::CSC8503::BridgeConstraint::Rotation': function does not take 5 arguments
+C:\Users\Jake\Documents\GitHub\CSC8503\CSC8503\CSC8503Common\BridgeConstraint.h(33,9): message : see declaration of 'NCL::CSC8503::BridgeConstraint::Rotation'
+C:\Users\Jake\Documents\GitHub\CSC8503\CSC8503\CSC8503Common\BridgeConstraint.cpp(25,51): error C2660: 'NCL::CSC8503::BridgeConstraint::Rotation': function does not take 5 arguments
+C:\Users\Jake\Documents\GitHub\CSC8503\CSC8503\CSC8503Common\BridgeConstraint.h(33,9): message : see declaration of 'NCL::CSC8503::BridgeConstraint::Rotation'
+C:\Users\Jake\Documents\GitHub\CSC8503\CSC8503\CSC8503Common\BridgeConstraint.cpp(30,1): error C2511: 'void NCL::CSC8503::BridgeConstraint::Distance(float,float,NCL::CSC8503::PhysicsObject *,NCL::CSC8503::PhysicsObject *)': overloaded member function not found in 'NCL::CSC8503::BridgeConstraint'
+C:\Users\Jake\Documents\GitHub\CSC8503\CSC8503\CSC8503Common\BridgeConstraint.h(10): message : see declaration of 'NCL::CSC8503::BridgeConstraint'
+C:\Users\Jake\Documents\GitHub\CSC8503\CSC8503\CSC8503Common\BridgeConstraint.cpp(34,43): error C2597: illegal reference to non-static member 'NCL::CSC8503::BridgeConstraint::distance'
+C:\Users\Jake\Documents\GitHub\CSC8503\CSC8503\CSC8503Common\BridgeConstraint.cpp(34,43): error C3867: 'NCL::CSC8503::BridgeConstraint::distance': non-standard syntax; use '&' to create a pointer to member
+C:\Users\Jake\Documents\GitHub\CSC8503\CSC8503\CSC8503Common\BridgeConstraint.cpp(56,1): error C2511: 'void NCL::CSC8503::BridgeConstraint::Allignment(float,float,NCL::CSC8503::PhysicsObject *,NCL::CSC8503::PhysicsObject *)': overloaded member function not found in 'NCL::CSC8503::BridgeConstraint'
+C:\Users\Jake\Documents\GitHub\CSC8503\CSC8503\CSC8503Common\BridgeConstraint.h(10): message : see declaration of 'NCL::CSC8503::BridgeConstraint'
+C:\Users\Jake\Documents\GitHub\CSC8503\CSC8503\CSC8503Common\BridgeConstraint.cpp(60,1): error C2511: 'void NCL::CSC8503::BridgeConstraint::Rotation(float,float,NCL::CSC8503::PhysicsObject *,NCL::CSC8503::PhysicsObject *,bool)': overloaded member function not found in 'NCL::CSC8503::BridgeConstraint'
+C:\Users\Jake\Documents\GitHub\CSC8503\CSC8503\CSC8503Common\BridgeConstraint.h(10): message : see declaration of 'NCL::CSC8503::BridgeConstraint'
+  CollisionDetection.cpp
+C:\Users\Jake\Documents\GitHub\CSC8503\CSC8503\CSC8503Common\BridgeConstraint.cpp(65,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Debug.cpp
+  GameObject.cpp
+  GameWorld.cpp
+  NavigationGrid.cpp
+  NavigationMesh.cpp
+  OrientationConstraint.cpp
+C:\Users\Jake\Documents\GitHub\CSC8503\CSC8503\CSC8503Common\CollisionDetection.cpp(508,12): warning C4552: '+': result of expression not used
+  PhysicsObject.cpp
+C:\Users\Jake\Documents\GitHub\CSC8503\CSC8503\CSC8503Common\OrientationConstraint.cpp(19,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  PhysicsSystem.cpp
+  PositionConstraint.cpp
+  PushdownMachine.cpp
+  PushdownState.cpp
+  QuadTree.cpp
+  RenderObject.cpp
+  StateGameObject.cpp
+  StateMachine.cpp
+  StateTransition.cpp
+  Timer.cpp
+  Transform.cpp
+  Generating Code...
+C:\Users\Jake\Documents\GitHub\CSC8503\CSC8503\CSC8503Common\PhysicsObject.cpp(73,10): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data

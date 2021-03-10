@@ -1,0 +1,4 @@
+﻿  Player.cpp
+C:\Users\Jake\Documents\GitHub\CSC8503\CSC8503\CSC8503Common\PlayerStateJumping.h(32,1): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Jake\Documents\GitHub\CSC8503\CSC8503\CSC8503Common\PlayerStateRunning.h(35,1): warning C4305: 'argument': truncation from 'double' to 'float'
+  CSC8503Common.vcxproj -> C:\Users\Jake\Documents\GitHub\CSC8503\Win32\Debug\CSC8503Common.lib
